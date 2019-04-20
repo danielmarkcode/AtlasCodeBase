@@ -1,3 +1,25 @@
-<p>
-  atl-landing works!
-</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome to Daniel Mark Media</title>
+
+</head>
+
+<body>
+  <img class="backgroundPicture" src="../../../assets/landing.jpg">
+  <div class="landContent">
+    <p>I'm <span style="color: #f44336;"><strong>Daniel Mark</strong></span></p>
+    <p>I Build Things on the Internet</p>
+  </div>
+  <div class="buttonContent">
+    <button mat-raised-button color="warn" [routerLink]="['/dashboard']">Launch</button>
+    <a mat-stroked-button [routerLink]="['/contact']">Contact Me</a>
+  </div>
+
+</body>
+
+</html>
